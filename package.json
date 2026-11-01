@@ -1,6 +1,6 @@
 {
   "name": "@gershy/nodejs-http-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Gershom Maes",
   "description": "TODO",
   "keywords": [
@@ -18,10 +18,13 @@
   "files": [
     "cmp"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@gershy/util-phrasing": "^0.0.21"
+  },
   "devDependencies": {
-    "@types/node": "^24.10.1",
-    "@gershy/entry": "^0.0.27"
+    "@gershy/entry": "^0.0.27",
+    "@gershy/logger": "^0.0.31",
+    "@types/node": "^24.10.1"
   },
   "peerDependencies": {
     "@gershy/clearing": "^0.0.55"
